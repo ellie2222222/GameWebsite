@@ -1,0 +1,153 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 4, 2024, 2:46:41 PM
+    Author     : Tam
+*/
+
+
+
+/* MAIN SLIDESHOW */
+.main-slideshow-container {
+  height: 90vh;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.main-slideshow {
+  display: none;
+}
+
+.main-slideshow img {
+    object-fit: cover;
+    height: 90vh;
+}
+
+.main-slideshow-description {
+    color: var(--main-text-color);
+    padding: 50px;
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    z-index: 13;
+    font-size: 1.1rem;
+    top: 20%;
+    left: 5%;
+    display: flex;
+    flex-direction: column;
+    /*justify-content: center;*/
+    gap: 5rem;
+    text-align: justify;
+}
+
+.main-slideshow-description button {
+    font-weight: 600;
+    padding: 20px 50px;
+    background: none;
+    color: var(--main-text-color);
+    border: 1px solid var(--secondary-bg-color);
+    transition: 0.2s ease;
+}
+
+.main-slideshow-description button:hover {
+    cursor: pointer;
+    color: var(--secondary-text-color);
+    background-color: var(--secondary-bg-color);
+}
+
+/* Next & previous buttons */
+.main-prev, .main-next,
+.genre-prev, .genre-next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  user-select: none;
+  z-index: 14;
+}
+
+.genre-prev {
+    left: 0;
+}
+
+.main-next, .genre-next {
+  right: 0;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.main-prev:hover, .main-next:hover,
+.genre-prev:hover, .genre-next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* MAIN SLIDESHOW */
+
+/*GENRE SLIDESHOW*/
+.genre-slideshow-container {
+    /*margin: 0 auto;*/
+    margin-bottom: 100px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.genre-slideshow-wrapper {
+    position: relative;
+}
+
+.genre-slideshow {
+    display: flex;
+    gap: 3rem;
+}
+
+.genre-slideshow-box {
+    position: relative;
+    width: 250px;
+    height: 250px;
+}
+
+.genre-slideshow-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.genre-slideshow-box::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to top, #24262b, transparent);
+    top: 0;
+    left: 0;
+}
+
+.genre-slideshow-box h3 {
+    color: var(--main-text-color);
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+/*GENRE SLIDESHOW*/

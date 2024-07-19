@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Code/GameWebsite/GameWebsite/src/java/controller/LibraryController.java</file>
+            <file>file:/C:/Code/GameWebsite/GameWebsite/src/java/DTO/Cart.java</file>
+            <file>file:/C:/Code/GameWebsite/GameWebsite/web/viewOrder.jsp</file>
+            <file>file:/C:/Code/GameWebsite/GameWebsite/web/header.jsp</file>
+            <file>file:/C:/Code/GameWebsite/GameWebsite/src/java/controller/AdminController.java</file>
+            <file>file:/C:/Code/GameWebsite/GameWebsite/web/login.jsp</file>
+            <file>file:/C:/Code/GameWebsite/GameWebsite/web/footer.jsp</file>
+            <file>file:/C:/Code/GameWebsite/GameWebsite/src/java/DAO/libraryDao.java</file>
+            <file>file:/C:/Code/GameWebsite/GameWebsite/src/java/controller/MainController.java</file>
+            <file>file:/C:/Code/GameWebsite/GameWebsite/web/assets/css/slideshow.css</file>
+            <file>file:/C:/Code/GameWebsite/GameWebsite/web/assets/css/style.css</file>
+            <file>file:/C:/Code/GameWebsite/GameWebsite/web/assets/js/script.js</file>
+            <file>file:/C:/Code/GameWebsite/GameWebsite/web/viewUser.jsp</file>
+            <file>file:/C:/Code/GameWebsite/GameWebsite/src/java/DTO/Library.java</file>
+            <file>file:/C:/Code/GameWebsite/GameWebsite/web/home.jsp</file>
+            <file>file:/C:/Code/GameWebsite/GameWebsite/src/java/DAO/gameDao.java</file>
+            <file>file:/C:/Code/GameWebsite/GameWebsite/web/profile.jsp</file>
+            <file>file:/C:/Code/GameWebsite/GameWebsite/web/library.jsp</file>
+            <file>file:/C:/Code/GameWebsite/GameWebsite/web/WEB-INF/web.xml</file>
+            <file>file:/C:/Code/GameWebsite/GameWebsite/web/game.jsp</file>
+            <file>file:/C:/Code/GameWebsite/GameWebsite/web/assets/images/bee.jpg</file>
+            <file>file:/C:/Code/GameWebsite/GameWebsite/src/java/DTO/User.java</file>
+            <file>file:/C:/Code/GameWebsite/GameWebsite/web/assets/css/checkbox.css</file>
+            <file>file:/C:/Code/GameWebsite/GameWebsite/src/java/DAO/userDao.java</file>
+            <file>file:/C:/Code/GameWebsite/GameWebsite/src/java/Utils/DBUtils.java</file>
+            <file>file:/C:/Code/GameWebsite/GameWebsite/src/java/DAO/orderDao.java</file>
+            <file>file:/C:/Code/GameWebsite/GameWebsite/src/java/controller/UserController.java</file>
+            <file>file:/C:/Code/GameWebsite/GameWebsite/src/java/DTO/Game.java</file>
+            <file>file:/C:/Code/GameWebsite/GameWebsite/web/search.jsp</file>
+            <file>file:/C:/Code/GameWebsite/GameWebsite/web/admin.jsp</file>
+            <file>file:/C:/Code/GameWebsite/GameWebsite/src/java/DTO/Order.java</file>
+            <file>file:/C:/Code/GameWebsite/GameWebsite/src/java/DAO/cartDao.java</file>
+            <file>file:/C:/Code/GameWebsite/GameWebsite/src/java/controller/CartController.java</file>
+            <file>file:/C:/Code/GameWebsite/GameWebsite/web/error.jsp</file>
+            <file>file:/C:/Code/GameWebsite/GameWebsite/web/cart.jsp</file>
+            <file>file:/C:/Code/GameWebsite/GameWebsite/src/java/controller/GameController.java</file>
+            <file>file:/C:/Code/GameWebsite/GameWebsite/src/java/DTO/OrderDetails.java</file>
+        </group>
+    </open-files>
+</project-private>
